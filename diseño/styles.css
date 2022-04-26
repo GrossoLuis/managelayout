@@ -1,0 +1,645 @@
+@import url(https://fonts.google.com/specimen/Be+Vietnam); 
+
+*{
+box-sizing: border-box;
+margin: 0%;
+
+}
+
+body {
+    font-family: 'Be Vietnam',  sans-serif;
+    background-image: url(../imagenes/bg-tablet-pattern.svg), url(../imagenes/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    background-position: left 110% bottom 110%, right 150% top 65%;
+}
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+
+
+
+}
+
+
+header .hamburger {
+
+    display: none;
+
+}
+
+header ul{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    list-style: none;
+
+}
+ header ul li a{
+
+    justify-content: space-around;
+    text-decoration: none;
+    margin: 20px;
+    color: rgb(35, 44, 81);
+    text-decoration: none;
+    font-weight: 700;
+
+
+ }
+
+header ul li a:hover{
+
+    color: rgb(248, 123, 81) 
+}
+
+
+ header button{
+        color: white;
+        background-color: rgb(242, 92, 58 );
+        border-radius: 40px;
+        padding: 12px;
+        box-shadow: none;
+        border: 0px;
+ }
+
+ button:hover{
+    background-color: rgb(248, 123, 81) ;
+
+
+ }
+
+
+
+.primero{
+    display:flex;
+    margin-top: 60px;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 0 165px;
+    gap: 130px;
+
+}
+
+
+
+ .primero div h2{
+    
+    font-size: 60px;
+    margin-top: 20px;
+    font-weight: 700;
+    color:  rgb (29, 30, 37);
+    
+ }
+.primero div p{
+font-size: 16px;
+align-items: center;
+margin-top: 20px;
+color: rgb(143, 148, 167);
+
+
+}
+
+
+
+.primero div button{
+    color: white;
+    background-color: rgb(242, 92, 58 );
+    margin-top: 20px;
+    border-radius: 40px;
+    padding: 12px;
+    box-shadow: none;
+    border: 0px;
+}
+
+.primero div button:hover{
+    background-color: rgb(248, 123, 81) ;
+}
+
+
+.segundo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 125px;
+    padding: 100px 165px 0 165px;
+    
+}
+
+
+.segundo div h3{
+    font-size: 30px;
+    font-weight: 700;
+    color:  rgb (29, 30, 37);
+
+}
+
+.segundo div p{
+    
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: -0.01em;
+    color: #B3B2B7;
+
+}
+
+.lista{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 27px;
+
+}
+
+.item{
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+    counter-increment: item;
+
+
+}
+
+
+.lista h4::before{
+
+    content: counter(item);
+    background: #F3603B;
+    border-radius: 30px;
+    font-weight: 700;
+    line-height: 23px;
+    color: #FFFFFF;
+    padding: 10px 25px;
+    margin-right: 23px;
+
+}
+
+
+.testimonials{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 125px 70px 0 70px;
+
+}
+
+.testimonials h4{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 155%;
+    letter-spacing: -0.01em;
+    color: #242E53;
+    padding-bottom: 75px;
+
+}
+
+.list-cards{
+    display: flex;
+    gap: 30px;
+    padding-bottom: 45px;
+
+}
+
+.testimony{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FAFAFA;
+    gap: 20px;
+    padding-bottom: 40px;
+
+
+}
+
+main .testimonials .list-cards .testimony p{
+
+    font-weight: 500;
+    line-height: 155%;
+    color: #B9B9C1;
+    text-align: center;
+
+
+}
+
+.testimonials button{
+    color: white;
+    background-color: rgb(242, 92, 58 );
+    margin-top: 20px;
+    border-radius: 40px;
+    padding: 12px;
+    box-shadow: none;
+    border: 0px;
+}
+
+
+.testimonials button:hover{
+    background-color: rgb(248, 123, 81) 
+
+
+}
+
+
+.banner{
+
+    margin-top: 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 64px 165px;
+    background-color: #F3613C;
+    
+
+}
+
+.banner h4{
+
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.005em;
+    color: #FFFFFF;
+
+}
+
+.banner button{
+
+    box-shadow: 0px 4px 7px rgb(0 0 0 / 25%);
+    border: none;
+    border-radius: 50px;
+    padding: 12.5px 30.5px;
+    background-color: white;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    color: #F3603B;
+    transition: 0.3s;
+
+
+}
+
+.banner button:hover{
+
+    color:rgb(223, 167, 149) ;
+
+}
+
+
+footer{
+
+    padding: 52px 165px;
+    background-color: #1E1E26;
+    position: relative;
+
+
+}
+
+footer .container{
+display: flex;
+justify-content: space-between;
+align-items: flex-start;
+}
+
+
+footer .container div img:hover {
+
+    color: rgb(248, 123, 81) 
+}
+
+
+
+.icons-footer{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 50px;
+
+}
+ 
+
+.links{
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    gap: 50px;
+}
+
+
+.links ul {
+
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 0;
+
+
+}
+
+.links ul li a {
+
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+
+
+
+}
+
+
+
+form input{
+    background: #FFFFFF;
+    border-radius: 50px;
+    padding: 12.5px 50px 12.5px 10px;
+    border: none;
+
+
+}
+
+form button{
+    background: #F3603B;
+    border-radius: 50px;
+    padding: 12.5px 22px;
+    border: none;
+    color: white;
+    transition: 0.3s;
+
+
+}
+
+footer p {
+    font-weight: 500;
+    font-size: 12.5px;
+    line-height: 18px;
+    color: #8C8C94;
+    position: absolute;
+    right: 165px;
+    bottom: 50px;
+
+}
+
+
+footer .container .links ul li a:hover {
+
+    color: rgb(248, 123, 81) 
+
+
+
+}
+
+
+/*===================RESPONSIVE========================================*/
+
+@media screen and ( max-width: 375px){
+
+   
+
+
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 20px;
+    }  
+    
+
+    header ul li{
+        display: none;
+
+    }
+
+    header ul {
+        display: none;
+
+    }
+    header button {
+
+        display: none;
+    }
+
+    header .hamburger{
+        display: block;
+
+
+    }
+
+
+    main .primero {
+        flex-direction: column-reverse;
+        padding: 30px;
+        gap: 0px;
+
+
+    }
+
+    main .primero div{
+        text-align: center;
+        align-items: center;
+
+
+    }
+
+    main .primero img {
+
+        width: 100%;
+
+    }
+
+
+     main .segundo {
+
+        flex-direction: column;
+        margin-top: 70px;
+        padding: 0px;
+        gap: 10px;
+
+
+    }
+
+    main .segundo div h3{
+        font-size: 34px;
+
+
+    }
+
+    main .segundo div {
+
+        padding: 10px 30px;
+        text-align: center;
+
+
+
+    }
+
+    main .segundo .lista {
+
+        padding: 10px 0 10px 10px;
+        gap: 50px
+
+    }
+
+    main .segundo .lista .item {
+
+        gap: 10px;
+        
+
+
+    }
+
+    main .segundo .lista .item h4 {
+
+    padding-bottom: 10px;
+    width: 100%;
+    background-color: #f3603b18;
+    padding-top: 10px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+     }
+
+
+     main .segundo .lista .item p{
+
+        padding-right: 10px;
+        padding-left: 0px;
+
+
+     } 
+
+
+     main .testimonials{    
+         padding: 0 10px;
+         margin-top: 75px;
+     }
+
+
+     main .testimonials h4{
+
+    text-align: center;
+    font-size: 32px;
+    padding-bottom: 40px;
+     }
+
+    main .testimonials .list-cards{
+
+        padding-top: 30px;
+        padding-bottom: 20px;
+
+
+    } 
+
+    main .testimonials .testimony:nth-of-type(2){
+        display: none;
+
+
+    }
+
+    main .testimonials .testimony:nth-of-type(3){
+        display: none;
+
+
+    }
+
+    main .testimonials .testimonials img{
+
+        max-width: 100px;
+        bottom: 50px;
+    }
+
+
+    main .testimonials button {
+        display: block
+    }
+
+
+    main .banner {
+
+    flex-direction: column;
+    padding: 75px 10px;
+    gap: 30px;
+    }
+
+    main .banner h4 {
+        text-align: center;
+        font-size: 32px;
+
+
+    }
+
+    footer {
+    padding: 50px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    }
+
+    footer .container {
+
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+
+    }
+
+    footer .container .icons-footer{
+
+        order: 3;
+        flex-direction: column-reverse;
+
+
+    }
+    footer .container .icons-footer .img {
+        width: 80%;
+
+
+    }
+
+    footer .container .icons-footer>div {
+
+        display: flex;
+    gap: 30px;
+
+
+    }
+
+    footer .container .icons-footer div>img{
+        font-size: 32px;
+    }
+
+    footer .container .links {
+
+        width: 100%;
+        padding: 30px;
+        order: 2;
+
+    }
+
+    footer .container form {
+        align-items: center;
+        order: 1;
+    }
+
+    footer>p {
+
+        position: relative;
+        right: initial;
+        bottom: initial;
+
+    }
+
+
+
+
+}
